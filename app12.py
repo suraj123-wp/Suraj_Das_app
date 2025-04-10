@@ -18,6 +18,7 @@ else:
 # ✅ Correct model name (avoid NotFound error)
 MODEL_NAME = "models/gemini-2.0-flash-lite"  # Change to "gemini-1.5-pro" if you're using the v1.5 version and have access
 
+# ✅ Define the prompt for Gemini (SQL generator)
 prompt = """
 You are a SQL expert. Convert the user's natural language request into a valid SQL query.
 Assume the database is SQLite and there is a table called 'sales_data' with the following columns:
